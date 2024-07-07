@@ -10,10 +10,10 @@ export const PickerBase = ({ handleSetDateRangeOnChange }: PickerBaseProps) => {
     <PickerBaseComponent
       hideDefaultRanges={true}
       hideOutsideMonthDays={false}
-      initialDateRange={{
-        startDate: new Date(),
-        endDate: new Date("2024-12-31"),
-      }}
+      // initialDateRange={{
+      //   startDate: new Date(),
+      //   endDate: new Date("2024-12-31"),
+      // }}
       definedRanges={[
         {
           label: "Today",

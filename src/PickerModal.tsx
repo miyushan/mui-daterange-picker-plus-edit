@@ -22,10 +22,10 @@ export const PickerModal = ({
     <PickerModalComponent
       //   hideDefaultRanges={true}
       hideOutsideMonthDays={false}
-      initialDateRange={{
-        startDate: new Date(),
-        endDate: new Date("2024-12-31"),
-      }}
+      // initialDateRange={{
+      //   startDate: new Date(),
+      //   endDate: new Date("2024-12-31"),
+      // }}
       definedRanges={[
         {
           label: "Today",
